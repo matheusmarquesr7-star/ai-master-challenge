@@ -1,0 +1,50 @@
+D1 linhas: 8469
+colunas: ['Ticket ID', 'Customer Name', 'Customer Email', 'Customer Age', 'Customer Gender', 'Product Purchased', 'Date of Purchase', 'Ticket Type', 'Ticket Subject', 'Ticket Description', 'Ticket Status', 'Resolution', 'Ticket Priority', 'Ticket Channel', 'First Response Time', 'Time to Resolution', 'Customer Satisfaction Rating']
+
+Ticket Type: 5 valores -> [('Refund request', 1752), ('Technical issue', 1747), ('Cancellation request', 1695), ('Product inquiry', 1641), ('Billing inquiry', 1634)]
+
+Ticket Status: 3 valores -> [('Pending Customer Response', 2881), ('Open', 2819), ('Closed', 2769)]
+
+Ticket Priority: 4 valores -> [('Medium', 2192), ('Critical', 2129), ('High', 2085), ('Low', 2063)]
+
+Ticket Channel: 4 valores -> [('Email', 2143), ('Phone', 2132), ('Social media', 2121), ('Chat', 2073)]
+
+Ticket Subject: 16 valores -> [('Refund request', 576), ('Software bug', 574), ('Product compatibility', 567), ('Delivery problem', 561), ('Hardware issue', 547), ('Battery life', 542)]
+
+Product Purchased: 42 valores -> [('Canon EOS', 240), ('GoPro Hero', 228), ('Nest Thermostat', 225), ('Philips Hue Lights', 221), ('Amazon Echo', 221), ('LG Smart TV', 219)]
+
+Amostra de 3 tickets:
+ TYPE: Technical issue | SUBJ: Product setup
+ DESC: I'm having an issue with the {product_purchased}. Please assist.  Your billing zip code is: 71701.  We appreciate that you have requested a website address.  Please double check your email address. I've tried troubleshooting steps mentioned in the user manual,
+ RES : 
+ FRT: 2023-06-01 12:15:36 TTR:  CSAT:  
+
+ TYPE: Technical issue | SUBJ: Peripheral compatibility
+ DESC: I'm having an issue with the {product_purchased}. Please assist.  If you need to change an existing product.  I'm having an issue with the {product_purchased}. Please assist.  If The issue I'm facing is intermittent. Sometimes it works fine, but other times it
+ RES : 
+ FRT: 2023-06-01 16:45:38 TTR:  CSAT:  
+
+ TYPE: Technical issue | SUBJ: Network problem
+ DESC: I'm facing a problem with my {product_purchased}. The {product_purchased} is not turning on. It was working fine until yesterday, but now it doesn't respond.  1.8.3 I really I'm using the original charger that came with my {product_purchased}, but it's not cha
+ RES : Case maybe show recently my computer follow.
+ FRT: 2023-06-01 11:14:38 TTR: 2023-06-01 18:05:38 CSAT: 3.0 
+
+descrições com placeholder {product_purchased}: 8469
+aberturas de descrição distintas (80 chars): 4530
+assunto 'Refund request' por tipo: {'Product inquiry': 122, 'Technical issue': 109, 'Refund request': 119, 'Billing inquiry': 100, 'Cancellation request': 126}
+
+fechados: 2769
+resolução antes da 1ª resposta (negativo): 1365 de 2769
+horas 1ª resp→resolução: mediana 0.2 min -23.2 max 23.5
+ano da compra: {'2021': 4233, '2020': 4236}
+ano/mês FRT: [('2023-06', 5475), ('2023-05', 175)]
+CSAT dist: [(1, 553), (2, 549), (3, 580), (4, 543), (5, 544)]
+CSAT médio por Ticket Channel: {'Social media': 2.97, 'Email': 2.96, 'Phone': 2.95, 'Chat': 3.08}
+CSAT médio por Ticket Priority: {'Low': 3.05, 'High': 2.98, 'Critical': 2.96, 'Medium': 2.98}
+CSAT médio por Ticket Type: {'Technical issue': 2.96, 'Billing inquiry': 3.03, 'Cancellation request': 3.03, 'Product inquiry': 3.02, 'Refund request': 2.93}
+
+D2 linhas: 47837 colunas: ['Document', 'Topic_group']
+Topic_group: [('Hardware', 13617), ('HR Support', 10915), ('Access', 7125), ('Miscellaneous', 7060), ('Storage', 2777), ('Purchase', 2464), ('Internal Project', 2119), ('Administrative rights', 1760)]
+ - Hardware | connection with icon icon dear please setup icon per icon engineers please let other details needed thanks lead
+ - Access | work experience user work experience user hi work experience student coming next his name much appreciate him duration thank
+ - Hardware | requesting for meeting requesting meeting hi please help follow equipments cable pc cord plug
